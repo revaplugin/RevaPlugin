@@ -1,0 +1,46 @@
+{
+    "name": "@revaplugin/revaplugin",
+    "version": "1.0.0",
+    "description": "Parent module for RevaPlugins",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublishOnly": "npm-multi-publish",
+        "postpublish": "npm-multi-publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/revaplugin/RevaPlugin.git"
+    },
+    "keywords": [
+        "plugin",
+        "extension",
+        "module",
+        "revadike",
+        "revabot",
+        "revaplugin"
+    ],
+    "dependencies": {
+        "fs-extra": "^9.1.0"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "latest",
+        "eslint": "latest",
+        "npm-multi-publish": "latest"
+    },
+    "author": "Revadike <revadike@outlook.com> (https://revadike.com/)",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/revaplugin/RevaPlugin/issues",
+        "email": "revadike@outlook.com"
+    },
+    "homepage": "https://github.com/revaplugin/RevaPlugin#readme",
+    "publishConfig": [
+        {
+            "registry": "https://npm.pkg.github.com"
+        },
+        {
+            "registry": "https://registry.npmjs.org"
+        }
+    ]
+}
