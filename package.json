@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/revaplugin/RevaPlugin.git"
+        "url": "git+https://github.com/revaplugin/revaplugin.git"
     },
     "keywords": [
         "plugin",
@@ -31,10 +31,10 @@
     "author": "Revadike <revadike@outlook.com> (https://revadike.com/)",
     "license": "GPL-3.0-or-later",
     "bugs": {
-        "url": "https://github.com/revaplugin/RevaPlugin/issues",
+        "url": "https://github.com/revaplugin/revaplugin/issues",
         "email": "revadike@outlook.com"
     },
-    "homepage": "https://github.com/revaplugin/RevaPlugin#readme",
+    "homepage": "https://github.com/revaplugin/revaplugin#readme",
     "publishConfig": [
         {
             "registry": "https://npm.pkg.github.com"
