@@ -1,6 +1,6 @@
 {
     "name": "@revaplugin/revaplugin",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Parent module for RevaPlugins",
     "main": "index.js",
     "scripts": {
